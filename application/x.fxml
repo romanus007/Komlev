@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="542.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Button fx:id="btn" layoutX="272.0" layoutY="300.0" mnemonicParsing="false" onAction="#ShowDate" text="OK" />
+      <TextField fx:id="result" layoutX="33.0" layoutY="422.0" />
+      <TextField fx:id="b" layoutX="32.0" layoutY="300.0" />
+      <Text layoutX="90.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="b" />
+      <Text layoutX="86.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="a" />
+      <Text layoutX="79.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ax^2+bx+c=0" wrappingWidth="80.7421875" />
+      <TextField fx:id="a" layoutX="32.0" layoutY="182.0" />
+      <TextField fx:id="c" layoutX="33.0" layoutY="347.0" />
+      <Text layoutX="95.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="c" />
+      <TextField fx:id="result2" layoutX="33.0" layoutY="467.0" />
+   </children>
+</AnchorPane>
